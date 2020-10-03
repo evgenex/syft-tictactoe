@@ -1,0 +1,41 @@
+.Board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.GridWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: slateblue;
+  padding: 5px;
+}
+.Cell {
+  background-color: turquoise;
+  border: 1px solid blueviolet;
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  min-width: 3rem;
+  min-height: 3rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.CellActive{
+  cursor: pointer;
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: blueviolet;
+}
+.PlayerX{
+  color: cornflowerblue;
+}
+.PlayerO{
+  color:lightcoral;
+}
